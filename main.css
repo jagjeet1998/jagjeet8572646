@@ -1,0 +1,113 @@
+body  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #ffffff;
+	width:800px;
+	padding:0;
+	margin: 0 auto;
+	border:3px solid black;
+	box-shadow:0 7px 15px 8px;
+    	
+		}
+/*set backgroud image*/
+html{
+background-image: url("../images/bats.gif");}
+
+
+a {
+    font-weight: bold;
+    color: orange;
+}
+a:link, a:visited { 
+    color: orange; 
+}
+a:hover, a:focus { 
+    color: green;
+}
+
+/* Header */
+header img { 
+	float: left;
+padding-right : 12px;
+	
+} 
+/*adjust backgroud color for header in borde*/
+header{
+	
+	border-bottom: 3px solid black;
+    padding: 14px;
+    background-image: linear-gradient(45deg,white 0%, orange 75%,black 100%);
+} 
+		
+header h2 {
+	font-size: 230%;
+	font-style: italic;
+	color: orange;
+	text-indent: 25px;
+	text-shadow: 2px 2px 2px black;
+	margin:0;
+	padding :0;
+}
+header h3 {
+	font-size: 125%;
+	text-indent: 25px;
+	padding:0;
+	margin:0;
+}
+
+/* Main */
+main h1 { 
+	font-size: 140%;
+	margin-bottom:.06em;
+}
+main h1:first-letter { 
+	font-size: 240%;
+}
+main h2 {
+	font-size: 125%;
+	margin:.07em;
+}
+main h3 {
+	font-size: 110%;
+	margin-bottom :0.5em;
+}
+}
+main
+{
+clear:both}
+aside{
+	float:left;
+	width:160px;
+
+	}
+section{
+	   margin-left:-5em;
+		float:right;
+		width:620px;
+		}
+	
+ul {
+  line-height: 1.5;
+  float:;
+}   
+}
+header nav ul ul{
+position: absolute;
+top: 100%;
+width: 140px;
+background: white;
+flex-flow: column;
+}
+#nav_menu ul li {float: left;}
+
+/* Footer */
+/*adjust backgroud color for the footer*/
+footer{
+clear:both;
+border-top: 2px solid black;
+padding: 15px;
+background-image:linear-gradient(45deg,black 0%, orange 25%,white 100%)}
+	
+footer p {
+	font-size: 90%;
+	text-align: center;
+}
